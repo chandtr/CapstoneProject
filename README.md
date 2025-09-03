@@ -20,6 +20,7 @@ This Jupyter Notebook is doing the following tasks along with EDA,
 *. Data cleansing and outlier removals
 *. Aggregating and analyzing the datat for 33 months
 *. Removing the outliers by Sales Count and Item Price
+*. Aggregated sales data by month wise,
 
 <img width="998" height="607" alt="image" src="https://github.com/user-attachments/assets/ea537d59-5dcf-4775-83b7-1404760a5fce" />
 
