@@ -49,8 +49,12 @@ Few points for data cleansing,
 *.Making sure the sales data is avaiable for all the shop_id, item_id and I am populating the default value for shop_id/item_id has missing sales data<br><br>
 *.Aggregating the data for getting the monthly sales summary for all the shop_ids and item_ids<br><br>
 
-<img width="998" height="607" alt="image" src="https://github.com/user-attachments/assets/ea537d59-5dcf-4775-83b7-1404760a5fce" />
+<img width="998" height="607" alt="image" src="https://github.com/user-attachments/assets/ea537d59-5dcf-4775-83b7-1404760a5fce" /><br><br>
 
-*. Filling the sales data for missing dates, making sure sales is listed for all the sales id and item id combination for every month
-*. Spliting the Traning and Testing data like first 25 months for training data and remaining for testing
-*. Created the baseline model with dummy classifier
+*.Monthly summary for the top 10 highest sale items,
+<img width="1200" height="2000" alt="newplot" src="https://github.com/user-attachments/assets/58cb855d-6c32-41f3-a16b-e46702c9a640" />
+
+
+*. Filling the sales data for missing dates, making sure sales is listed for all the sales id and item id combination for every month <br> <br>
+*. Spliting the Traning and Testing data like first 25 months for training data and remaining for testing<br> <br>
+*. Created the baseline model with dummy classifier<br><br>
