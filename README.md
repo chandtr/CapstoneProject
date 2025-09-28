@@ -4,13 +4,6 @@ Problem Statement : Sales predictions summary for the upcoming month by product 
 
 • Why this question is important Retailers can analyze the historical sales data, sales trends and consumer behavior to accurately Forecast demand. This minimizes overstock or understock situations while ensuring customers Find what they want. Better supply chain management
 
-
-<img width="998" height="607" alt="image" src="https://github.com/user-attachments/assets/ea537d59-5dcf-4775-83b7-1404760a5fce" />
-
-*. Filling the sales data for missing dates, making sure sales is listed for all the sales id and item id combination for every month
-*. Spliting the Traning and Testing data like first 25 months for training data and remaining for testing
-*. Created the baseline model with dummy classifier
-
 Link to Jupyter Notebook :
 https://github.com/chandtr/CapstoneProject/blob/master/SalesPrediction.ipynb
 
@@ -48,12 +41,16 @@ Few points for data cleansing,
 *.Based on the sales data, noticed that sales data has below 0 sales values, which needs to be remvoed, so i have filtered the records with negative sales numbers<br>
 *.Noticed that few duplicated rowes were there, which has been dropped <br>
 *.Based on the data distribution analysis, found out that some item prices are greater than $5000, which is a outlier because most of the sales prices are
-  falling under 5000. So i have filtered those outliers<br>
-  Few Gaming and Software related items have item price more than 40000, they are all outliers <br>
-  <img width="1066" height="347" alt="image" src="https://github.com/user-attachments/assets/9b20e5ee-1bf4-475a-94a8-15fbf382b0e2" /><br>
+  falling under 5000. Few Gaming and Software related items have item price more than 40000, those outliers has been removed <br>
   <img width="706" height="491" alt="image" src="https://github.com/user-attachments/assets/784bcb7a-9038-4c4a-96a5-2f06a96d0cb4" /><br>
 *.Density of the item sales count is better under 10, i have removed the outliers based on the sales count,<br>
 <img width="613" height="495" alt="image" src="https://github.com/user-attachments/assets/17b566ce-6ff7-4067-9feb-14eda4c879cc" /><br>
 
 *.Making sure the sales data is avaiable for all the shop_id, item_id and I am populating the default value for shop_id/item_id has missing sales data<br>
 *.Aggregating the data for getting the monthly sales summary for all the shop_ids and item_ids<br>
+
+<img width="998" height="607" alt="image" src="https://github.com/user-attachments/assets/ea537d59-5dcf-4775-83b7-1404760a5fce" />
+
+*. Filling the sales data for missing dates, making sure sales is listed for all the sales id and item id combination for every month
+*. Spliting the Traning and Testing data like first 25 months for training data and remaining for testing
+*. Created the baseline model with dummy classifier
