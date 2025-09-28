@@ -31,3 +31,9 @@ This Jupyter Notebook is doing the following tasks along with EDA,
 Link to Jupyter Notebook :
 https://github.com/chandtr/CapstoneProject/blob/master/SalesPrediction.ipynb
 
+**How to run this notebook :**
+
+*.Clone this repository in a directory
+*.Run this notebook using the Jupyter Notebook application from the Python Installation
+
+
