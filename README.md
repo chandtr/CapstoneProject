@@ -49,6 +49,8 @@ Few points for data cleansing,
 *.Based on the data distribution analysis, found out that some item prices are greater than $5000, which is a outlier because most of the sales prices are
   falling under 5000. So i have filtered those outliers<br>
   <img width="706" height="491" alt="image" src="https://github.com/user-attachments/assets/784bcb7a-9038-4c4a-96a5-2f06a96d0cb4" />
+*.Density of the item sales count is better under 10, i have removed the outliers based on the sales count,
+<img width="613" height="495" alt="image" src="https://github.com/user-attachments/assets/17b566ce-6ff7-4067-9feb-14eda4c879cc" />
 
 *.Making sure the sales data is avaiable for all the shop_id, item_id and I am populating the default value for shop_id/item_id has missing sales data<br>
 *.Aggregating the data for getting the monthly sales summary for all the shop_ids and item_ids<br>
