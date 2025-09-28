@@ -33,7 +33,7 @@ https://github.com/chandtr/CapstoneProject/blob/master/SalesPrediction.ipynb
 
 **How to run this notebook :**
 
-*.Clone this repository in a directory \r\n
+*.Clone this repository in a directory <br>
 *.Run this notebook using the Jupyter Notebook application from the Python Installation
 
 
