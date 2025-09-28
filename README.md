@@ -46,6 +46,9 @@ This Jupyter Notebook is doing the following tasks along with EDA,
 Few points for data cleansing,
 *.Based on the sales data, noticed that sales data has below 0 sales values, which needs to be remvoed, so i have filtered the records with negative sales numbers<br>
 *.Noticed that few duplicated rowes were there, which has been dropped <br>
-*.Based on the data distribution analysis, found out that some item prices are greater than $40000, which is a outlier because most of the sales prices are
-  falling under 40000. So i have filtered those outliers
-*.
+*.Based on the data distribution analysis, found out that some item prices are greater than $5000, which is a outlier because most of the sales prices are
+  falling under 5000. So i have filtered those outliers<br>
+  <img width="706" height="491" alt="image" src="https://github.com/user-attachments/assets/784bcb7a-9038-4c4a-96a5-2f06a96d0cb4" />
+
+*.Making sure the sales data is avaiable for all the shop_id, item_id and I am populating the default value for shop_id/item_id has missing sales data<br>
+*.Aggregating the data for getting the monthly sales summary for all the shop_ids and item_ids<br>
