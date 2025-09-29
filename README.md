@@ -61,8 +61,22 @@ Few points for data cleansing,
 
 # Model Training and Cross validation <br><br>
 
-<img width="390" height="94" alt="image" src="https://github.com/user-attachments/assets/1d33285a-2091-4051-b478-700b4433c3a5" /> <br><br>
+I have trained the following models for predicting the sales,<br><br>
+1.Linear Regression<br>
+2.XGB Regressor<br>
+3.Random Forest<br>
+4.LightGBM Timeseries<br><br>
 
+Training and Testing accuracy score is better for Random Forest model and LigthGBM timeseries model,<br><br>
+both got around 82% accuracy for Training datasets,<br><br>
+                72% accuracy for the Testing datasets.<br><br><br>
+                
+Training the dataset with RandomForest took long time to process, close to an hour for that training.<br><br>
+                
+Here is the accuracy score for these different models <br><br>
+<img width="390" height="94" alt="image" src="https://github.com/user-attachments/assets/1d33285a-2091-4051-b478-700b4433c3a5" /> <br><br><br>
+
+Trained the Timeseries model using LGBM and validated the predicted data with the testing dataset here, <br><br>
 <img width="1342" height="373" alt="image" src="https://github.com/user-attachments/assets/15c7fc88-d73b-48dc-95a9-63b5ed670ccd" /> <br><br>
 
 
