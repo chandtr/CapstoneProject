@@ -59,11 +59,12 @@ Few points for data cleansing,
 *. Spliting the Traning and Testing data like first 25 months for training data and remaining for testing<br> <br>
 *. Created the baseline model with dummy classifier<br><br><br><br>
 
-# Model Training and Cross validation
+# Model Training and Cross validation <br><br>
 
-<img width="391" height="97" alt="image" src="https://github.com/user-attachments/assets/03c5453a-b6dd-44aa-a062-5e66f38244c5" />
+<img width="391" height="97" alt="image" src="https://github.com/user-attachments/assets/03c5453a-b6dd-44aa-a062-5e66f38244c5" /> <br><br>
 
-<img width="1072" height="385" alt="image" src="https://github.com/user-attachments/assets/c82f35a6-3d8d-4253-8c6b-648c8448af02" />
+<img width="1342" height="373" alt="image" src="https://github.com/user-attachments/assets/15c7fc88-d73b-48dc-95a9-63b5ed670ccd" /> <br><br>
+
 
 
 
