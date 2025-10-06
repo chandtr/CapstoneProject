@@ -97,8 +97,7 @@ Slightly more overfitting; <br>
 Suitable for large-scale data or faster iteration cycles.<br>
 
 # Technical next steps:
-
-## Step	Description <br>
+<br>
 Hyperparameter Tuning	Optimize model parameters using GridSearchCV <br>
 Feature Engineering	Explore additional transformations or interaction terms<br>
 Residual Analysis	Visual checks for pattern in errors <br>
