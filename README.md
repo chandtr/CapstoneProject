@@ -79,6 +79,27 @@ Here is the accuracy score for these different models <br><br>
 Trained the Timeseries model using LGBM and validated the predicted data with the testing dataset here, <br><br>
 <img width="1342" height="373" alt="image" src="https://github.com/user-attachments/assets/15c7fc88-d73b-48dc-95a9-63b5ed670ccd" /> <br><br>
 
+# Technical Insights<br><br>
+
+Linear Regression :<br>
+Very limited capacity to capture non-linear relationships.<br>
+Serves as a benchmark, but unsuitable for production.<br>
+
+Random Forest:<br><br>
+Best performance on testing data.<br>
+Ensemble method reduces bias but still shows moderate variance.<br>
+Can benefit from hyperparameter tuning (max_depth, min_samples_leaf) to reduce overfitting.<br>
+
+XGBoost:<br><br>
+Strong performance and generalization.<br>
+Built-in regularization helps prevent overfitting.<br>
+May be the most stable choice for deployment if consistency is a priority.<br>
+
+LightGBM:<br><br>
+Similar to XGBoost but faster.<br>
+Slightly more overfitting; requires careful tuning (num_leaves, learning_rate, min_child_samples).<br>
+Suitable for large-scale data or faster iteration cycles.<br>
+
 # Summary
 
 We tested four different models to find the most accurate and reliable one for our prediction task. After comparing their results, the Random Forest and XGBoost models showed the best performance.
