@@ -131,6 +131,13 @@ Random Forest (or XGBoost, depending on whether stability or raw accuracy is pri
 <img width="748" height="214" alt="image" src="https://github.com/user-attachments/assets/b94cf003-a9f4-4d28-bf3f-22e5e9ef8556" />
 
 
+# Summary & Business Impact :
+
+Sales can now be forecasted by product with >70% accuracy<br>
+Supports better demand planning and inventory decisions<br>
+Helps align sales, supply chain, and marketing strategies<br>
+Scalable and automatable solution ready for integration
+
 <br><br>
 # Next Steps :
 
