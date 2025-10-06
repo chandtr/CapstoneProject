@@ -92,7 +92,8 @@ Linear Regression was too simple and did not perform well.
 LightGBM performed well but overfit slightly more than the others.
 
 📌 Recommended Model:
-Random Forest (or XGBoost, depending on whether stability or raw accuracy is prioritized).<br>
+Random Forest (or XGBoost, depending on whether stability or raw accuracy is prioritized).<br><br><br>
+
 <img width="748" height="214" alt="image" src="https://github.com/user-attachments/assets/b94cf003-a9f4-4d28-bf3f-22e5e9ef8556" />
 
 
