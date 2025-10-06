@@ -30,11 +30,11 @@ ID: 214,200 unique entries — this is the number of test samples for which we n
 shop_id: 42 unique shops in the test set — fewer than the training set, so we may need to handle shops that appear in training but not in testing and vice versa.
 item_id: 5,100 unique items in the test set — fewer items than in the training set.
 
-This Jupyter Notebook is doing the following tasks along with EDA,
-*. Data cleansing and outlier removals
-*. Aggregating and analyzing the datat for 33 months
-*. Removing the outliers by Sales Count and Item Price
-*. Aggregated sales data by month wise
+This Jupyter Notebook is doing the following tasks along with EDA,<br>
+*. Data cleansing and outlier removals<br>
+*. Aggregating and analyzing the datat for 33 months<br>
+*. Removing the outliers by Sales Count and Item Price<br>
+*. Aggregated sales data by month wise<br>
 
 ### Data Cleansing 
 Few points for data cleansing,
