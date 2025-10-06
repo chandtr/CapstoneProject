@@ -96,6 +96,15 @@ Similar to XGBoost but faster.<br>
 Slightly more overfitting; <br>
 Suitable for large-scale data or faster iteration cycles.<br>
 
+# Technical next steps:
+
+## Step	Description
+Hyperparameter Tuning	Optimize model parameters using GridSearchCV 
+Feature Engineering	Explore additional transformations or interaction terms
+Residual Analysis	Visual checks for pattern in errors
+Model Packaging	Wrap in pipeline with preprocessing for deployment
+Monitoring Plan	Define metrics and thresholds for model drift detection
+
 # Summary
 
 We tested four different models to find the most accurate and reliable one for our prediction task. After comparing their results, the Random Forest and XGBoost models showed the best performance.
