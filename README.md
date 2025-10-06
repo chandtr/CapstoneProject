@@ -97,15 +97,6 @@ Random Forest (or XGBoost, depending on whether stability or raw accuracy is pri
 <img width="748" height="214" alt="image" src="https://github.com/user-attachments/assets/b94cf003-a9f4-4d28-bf3f-22e5e9ef8556" />
 
 
-<br>
-# Key Insights :
-
-Linear Regression: Think of this as a straight line trying to fit a complex curve — it didn’t capture the full picture.
-
-XGBoost and LightGBM: These are advanced techniques that work like a series of decision steps. They adapt well to data but need fine-tuning.
-
-Random Forest: This is like asking a group of “decision trees” to vote — very accurate and stable with proper controls.
-
 <br><br>
 # Next Steps :
 
