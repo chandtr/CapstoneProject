@@ -98,12 +98,12 @@ Suitable for large-scale data or faster iteration cycles.<br>
 
 # Technical next steps:
 
-## Step	Description
-Hyperparameter Tuning	Optimize model parameters using GridSearchCV 
-Feature Engineering	Explore additional transformations or interaction terms
-Residual Analysis	Visual checks for pattern in errors
-Model Packaging	Wrap in pipeline with preprocessing for deployment
-Monitoring Plan	Define metrics and thresholds for model drift detection
+## Step	Description <br>
+Hyperparameter Tuning	Optimize model parameters using GridSearchCV <br>
+Feature Engineering	Explore additional transformations or interaction terms<br>
+Residual Analysis	Visual checks for pattern in errors <br>
+Model Packaging	Wrap in pipeline with preprocessing for deployment<br>
+Monitoring Plan	Define metrics and thresholds for model drift detection<br>
 
 # Summary
 
