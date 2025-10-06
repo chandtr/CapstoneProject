@@ -57,7 +57,10 @@ Few points for data cleansing,<br>
 
   <img width="706" height="491" alt="image" src="https://github.com/user-attachments/assets/784bcb7a-9038-4c4a-96a5-2f06a96d0cb4" /><br><br>
 *.Density of the item sales count is better under 10, i have removed the outliers based on the sales count,<br><br><br>
-<img width="613" height="495" alt="image" src="https://github.com/user-attachments/assets/17b566ce-6ff7-4067-9feb-14eda4c879cc" /><br><br>
+<img width="808" height="505" alt="image" src="https://github.com/user-attachments/assets/66f7bb58-6e84-442e-9bfe-0622a467c45a" /><br>
+<img width="499" height="433" alt="image" src="https://github.com/user-attachments/assets/fa9a5f40-fe18-4993-8086-d6b2133a4271" /><br>
+<img width="613" height="495" alt="image" src="https://github.com/user-attachments/assets/17b566ce-6ff7-4067-9feb-14eda4c879cc" /><br>
+<img width="793" height="513" alt="image" src="https://github.com/user-attachments/assets/171bdef4-411d-4b99-95b8-d4a130c4edba" /><br>
 
 *.Making sure the sales data is avaiable for all the shop_id, item_id and I am populating the default value for shop_id/item_id has missing sales data<br><br>
 *.Aggregating the data for getting the monthly sales summary for all the shop_ids and item_ids<br><br>
