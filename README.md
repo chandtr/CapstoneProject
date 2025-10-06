@@ -94,9 +94,11 @@ LightGBM performed well but overfit slightly more than the others.
 📌 Recommended Model:
 Random Forest (or XGBoost, depending on whether stability or raw accuracy is prioritized).
 
-Model	Accuracy (Train)	Accuracy (Test)	Summary
-Linear Regression	41%	38%	Too simple; missed key patterns
-XGBoost	73%	67%	Great balance of accuracy and reliability
-Random Forest	82%	72%	Most accurate, slight risk of overfitting
-LightGBM	81%	70%	Fast, accurate, but more overfitting
+🔎 Key Insights
+
+Linear Regression: Think of this as a straight line trying to fit a complex curve — it didn’t capture the full picture.
+
+XGBoost and LightGBM: These are advanced techniques that work like a series of decision steps. They adapt well to data but need fine-tuning.
+
+Random Forest: This is like asking a group of “decision trees” to vote — very accurate and stable with proper controls.
 
