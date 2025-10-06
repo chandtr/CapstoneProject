@@ -37,7 +37,7 @@ This Jupyter Notebook is doing the following tasks along with EDA,<br>
 *. Aggregated sales data by month wise<br>
 
 ### Data Cleansing 
-Few points for data cleansing,
+Few points for data cleansing,<br>
 *.Based on the sales data, noticed that sales data has below 0 sales values, which needs to be remvoed, so i have filtered the records with negative sales numbers<br><br>
 *.Noticed that few duplicated rowes were there, which has been dropped <br><br>
 *.Based on the data distribution analysis, found out that some item prices are greater than $5000, which is a outlier because most of the sales prices are
