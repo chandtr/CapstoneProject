@@ -87,14 +87,13 @@ Serves as a benchmark, but unsuitable for production.<br>
 ## Random Forest:<br>
 Best performance on testing data.<br>
 Ensemble method reduces bias but still shows moderate variance.<br>
-Can benefit from hyperparameter tuning (max_depth, min_samples_leaf) to reduce overfitting.<br>
 ## XGBoost:<br>
 Strong performance and generalization.<br>
 Built-in regularization helps prevent overfitting.<br>
 May be the most stable choice for deployment if consistency is a priority.<br>
 ## LightGBM:<br>
 Similar to XGBoost but faster.<br>
-Slightly more overfitting; requires careful tuning (num_leaves, learning_rate, min_child_samples).<br>
+Slightly more overfitting; <br>
 Suitable for large-scale data or faster iteration cycles.<br>
 
 # Summary
