@@ -94,7 +94,7 @@ LightGBM performed well but overfit slightly more than the others.
 📌 Recommended Model:
 Random Forest (or XGBoost, depending on whether stability or raw accuracy is prioritized).
 
-🔎 Key Insights
+🔎 # Key Insights
 
 Linear Regression: Think of this as a straight line trying to fit a complex curve — it didn’t capture the full picture.
 
