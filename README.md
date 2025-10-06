@@ -13,7 +13,7 @@ https://github.com/chandtr/CapstoneProject/blob/master/SalesPrediction.ipynb
 *.Run this notebook using the Jupyter Notebook application from the Python Installation
 
 
-# Exploratory Data Analysis of Coupon Acceptance
+# Exploratory Data Analysis of Sale Predictions
 
 The Dataset used for this analysis contains 2 years of Sales data for a Retail store, which includes multiples and stores and multiple products.
 Here is the details about the source data,
