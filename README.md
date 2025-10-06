@@ -100,6 +100,8 @@ Training the dataset with RandomForest took long time to process, close to an ho
 Here is the accuracy score for these different models <br><br>
 <img width="390" height="94" alt="image" src="https://github.com/user-attachments/assets/1d33285a-2091-4051-b478-700b4433c3a5" /> <br><br><br>
 
+# Sample Predictions :
+
 Trained the Timeseries model using LGBM and validated the predicted data with the testing dataset here, <br><br>
 <img width="1342" height="373" alt="image" src="https://github.com/user-attachments/assets/15c7fc88-d73b-48dc-95a9-63b5ed670ccd" /> <br><br>
 
