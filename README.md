@@ -1,11 +1,12 @@
 # CapstoneProject
 
-# Problem Statement : Sales predictions summary for the upcoming month by product wise.
+# Problem Statement :
+Sales predictions summary for the upcoming month by product wise.
 
+# Why :
 • Why this question is important Retailers can analyze the historical sales data, sales trends and consumer behavior to accurately Forecast demand. This minimizes overstock or understock situations while ensuring customers Find what they want. Better supply chain management
 
 # Business Objective :
-
 To support data-driven sales planning, we evaluated multiple machine learning models to predict monthly sales by product. The goal is to identify the most accurate and generalizable model that can reliably forecast next month's sales across multiple products.
 
 Link to Jupyter Notebook :
