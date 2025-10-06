@@ -1,4 +1,4 @@
-# CapstoneProject
+# Capstone Project
 
 # Problem Statement :
 Sales predictions summary for the upcoming month by product wise.
