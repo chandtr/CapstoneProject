@@ -44,9 +44,17 @@ This Jupyter Notebook is doing the following tasks along with EDA,<br>
 ### Data Cleansing 
 Few points for data cleansing,<br>
 *.Based on the sales data, noticed that sales data has below 0 sales values, which needs to be remvoed, so i have filtered the records with negative sales numbers<br><br>
-*.Noticed that few duplicated rowes were there, which has been dropped <br><br>
+*.Noticed that few duplicated rows were there, which has been dropped <br><br>
 *.Based on the data distribution analysis, found out that some item prices are greater than $5000, which is a outlier because most of the sales prices are
   falling under 5000. Few Gaming and Software related items have item price more than 40000, those outliers has been removed <br><br><br>
+  
+  <img width="805" height="484" alt="image" src="https://github.com/user-attachments/assets/27b04fad-a2d9-4db7-9a02-9a00fc266b37" /><br>
+
+  <img width="526" height="443" alt="image" src="https://github.com/user-attachments/assets/1773d60d-2da5-424c-ac19-705a9408bc34" /> <br>
+
+  <img width="547" height="449" alt="image" src="https://github.com/user-attachments/assets/246dcae6-30ff-45ec-a882-75c8281faaac" /> <br>
+
+
   <img width="706" height="491" alt="image" src="https://github.com/user-attachments/assets/784bcb7a-9038-4c4a-96a5-2f06a96d0cb4" /><br><br>
 *.Density of the item sales count is better under 10, i have removed the outliers based on the sales count,<br><br><br>
 <img width="613" height="495" alt="image" src="https://github.com/user-attachments/assets/17b566ce-6ff7-4067-9feb-14eda4c879cc" /><br><br>
@@ -54,10 +62,18 @@ Few points for data cleansing,<br>
 *.Making sure the sales data is avaiable for all the shop_id, item_id and I am populating the default value for shop_id/item_id has missing sales data<br><br>
 *.Aggregating the data for getting the monthly sales summary for all the shop_ids and item_ids<br><br>
 
+<img width="809" height="489" alt="image" src="https://github.com/user-attachments/assets/9e084a17-e121-4556-a699-b4fd2d3a8629" />
+
 <img width="998" height="607" alt="image" src="https://github.com/user-attachments/assets/ea537d59-5dcf-4775-83b7-1404760a5fce" /><br><br>
 
 *.Monthly summary for the top 10 highest sale items,
 <img width="1200" height="2000" alt="newplot" src="https://github.com/user-attachments/assets/58cb855d-6c32-41f3-a16b-e46702c9a640" />
+
+# Top 10 Item by Total Sales :
+<img width="568" height="313" alt="image" src="https://github.com/user-attachments/assets/d4aad420-9540-410b-a877-34a8144392ea" />
+
+# Top 10 Shops by Total Sales :
+<img width="355" height="304" alt="image" src="https://github.com/user-attachments/assets/45b937bf-aba8-4d32-bbd1-fb5d533719b9" />
 
 
 *. Filling the sales data for missing dates, making sure sales is listed for all the sales id and item id combination for every month <br> <br>
