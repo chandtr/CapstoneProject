@@ -94,11 +94,21 @@ LightGBM performed well but overfit slightly more than the others.
 📌 Recommended Model:
 Random Forest (or XGBoost, depending on whether stability or raw accuracy is prioritized).
 
-🔎 # Key Insights
+<br>
+# Key Insights
 
 Linear Regression: Think of this as a straight line trying to fit a complex curve — it didn’t capture the full picture.
 
 XGBoost and LightGBM: These are advanced techniques that work like a series of decision steps. They adapt well to data but need fine-tuning.
 
 Random Forest: This is like asking a group of “decision trees” to vote — very accurate and stable with proper controls.
+
+<br><br>
+# Next Steps :
+
+Model Tuning – We will fine-tune the top models to improve performance even more.
+
+Validation – We'll test the final model on new data to make sure it performs well.
+
+Deployment – Once validated, the model can be integrated into our systems (e.g., dashboards, decision tools).
 
