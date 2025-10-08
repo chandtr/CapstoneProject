@@ -1,4 +1,4 @@
-# Capstone Project
+# Demand Forecasting
 
 # Problem Statement :
 Sales predictions summary for the upcoming month by product wise.
